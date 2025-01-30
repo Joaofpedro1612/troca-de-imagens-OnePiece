@@ -4,41 +4,37 @@
     box-sizing: border-box;
 }
 
-button{
-    border: none;
-    cursor: pointer;
-}
-
-:root{
-    --fundo: url('#');
+:root {
+    --imagem1: url('./img/img1.png');
+    --imagem2: url('./img/img2.png');
+    --imagem3: url('./img/bolsa-de-estudo-na-Itália.jpg');
+    --imagem4: url('./img/camisa_corinthians_1-e1724771296103.webp');
+    --imagem5: url('./img/jogo-do-tigrinho-fortune-tiger.jpeg');
 }
 
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
     height: 100vh;
-    transition: 1s;
-
-    background-image: var(--fundo);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.container{
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #ffffff;
-    padding: 10px;
-    transition: 500ms;
+    align-items: center;
+    background-image: var(--imagem1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
+#cor {
+    padding: 16px 32px;
+    font-size: 24px;
+    outline: none;
+
+
+}
+
 
 #trocar-fundo{
-    padding: 5px;
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
+    padding: 16px 32px;
+    font-size: 24px;
+    cursor: pointer;
 }
-
