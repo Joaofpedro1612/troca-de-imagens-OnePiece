@@ -7,8 +7,8 @@
 :root {
     --imagem1: url('./img/img1.png');
     --imagem2: url('./img/img2.png');
-    --imagem3: url('./img/bolsa-de-estudo-na-Itália.jpg');
-    --imagem4: url('./img/camisa_corinthians_1-e1724771296103.webp');
+    --imagem3: url('./img/img3.png');
+    --imagem4: url('./img/img4.png');
     --imagem5: url('./img/jogo-do-tigrinho-fortune-tiger.jpeg');
 }
 
@@ -33,7 +33,7 @@ body{
 }
 
 
-#trocar-fundo{
+#trocarImagem{
     padding: 16px 32px;
     font-size: 24px;
     cursor: pointer;
